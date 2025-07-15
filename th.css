@@ -1,0 +1,148 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fff8fc;
+  color: #333;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 2rem;
+  background: purple;
+  box-shadow: 0 2px 4px rgba(99, 47, 47, 0.1);
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: whitesmoke;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1.2rem;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+
+.nav-links a:hover {
+  color: white;
+}
+
+.hero {
+  background: linear-gradient(to right, #d18ca3, #5e375c);
+  text-align: center;
+  padding: 4rem 2rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  color: white;
+}
+
+.hero p {
+  font-size: 1.2rem;
+  margin: 1rem 0;
+  color: whitesmoke;
+}
+
+.btn {
+  padding: 0.8rem 1.5rem;
+  background: purple;
+  color: white;
+  border: none;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+
+.service-grid,
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.service-card,
+.product-card {
+  background: purple;
+  color: white;
+  padding: 1.2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(245, 230, 230, 0.1);
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.booking-form {
+  max-width: 500px;
+  margin: auto;
+  display: grid;
+  gap: 1rem;
+}
+
+.booking-form input,
+.booking-form select {
+  padding: 0.8rem;
+  border: 1px solid #070006;
+  border-radius: 5px;
+}
+
+.booking-form button {
+  background-color: purple;
+  color: white;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 25px;
+}
+
+footer {
+  background-color: purple;
+  text-align: center;
+  padding: 1.2rem;
+  font-size: 0.9rem;
+  color: white;
+}
+
+.form-container {
+  max-width: 400px;
+  margin: 4rem auto;
+  background: purple;
+  color: white    ;
+  padding: 2rem;
+  border-radius: 25px;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.form-container form {
+  display: grid;
+  gap: 1rem;
+}
+
+.form-container input {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
